@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		332AC18C28498B750009CB3A /* SnapsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 332AC18B28498B750009CB3A /* SnapsViewController.swift */; };
+		332AC18E28498BBA0009CB3A /* PhotoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 332AC18D28498BBA0009CB3A /* PhotoViewController.swift */; };
 		338FCC0F2846EBBA0072C0DC /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 338FCC0E2846EBBA0072C0DC /* LoginViewController.swift */; };
 		338FCC112846EC560072C0DC /* AddNewAccountViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 338FCC102846EC560072C0DC /* AddNewAccountViewController.swift */; };
 		33DF61F0281B703A008A557D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33DF61EF281B703A008A557D /* AppDelegate.swift */; };
@@ -24,6 +26,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		332AC18B28498B750009CB3A /* SnapsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SnapsViewController.swift; sourceTree = "<group>"; };
+		332AC18D28498BBA0009CB3A /* PhotoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoViewController.swift; sourceTree = "<group>"; };
 		338FCC0E2846EBBA0072C0DC /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
 		338FCC102846EC560072C0DC /* AddNewAccountViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddNewAccountViewController.swift; sourceTree = "<group>"; };
 		33DF61EC281B703A008A557D /* Snapchat Clone.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Snapchat Clone.app"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -78,6 +82,8 @@
 				338FCC0E2846EBBA0072C0DC /* LoginViewController.swift */,
 				338FCC102846EC560072C0DC /* AddNewAccountViewController.swift */,
 				33DF61F5281B703A008A557D /* Main.storyboard */,
+				332AC18D28498BBA0009CB3A /* PhotoViewController.swift */,
+				332AC18B28498B750009CB3A /* SnapsViewController.swift */,
 				33DF61F8281B703C008A557D /* Assets.xcassets */,
 				33DF6203281B705F008A557D /* logo.png */,
 				33DF61FA281B703C008A557D /* LaunchScreen.storyboard */,
@@ -171,7 +177,9 @@
 			files = (
 				338FCC0F2846EBBA0072C0DC /* LoginViewController.swift in Sources */,
 				33DF61F4281B703A008A557D /* ViewController.swift in Sources */,
+				332AC18C28498B750009CB3A /* SnapsViewController.swift in Sources */,
 				338FCC112846EC560072C0DC /* AddNewAccountViewController.swift in Sources */,
+				332AC18E28498BBA0009CB3A /* PhotoViewController.swift in Sources */,
 				33DF61F0281B703A008A557D /* AppDelegate.swift in Sources */,
 				33DF61F2281B703A008A557D /* SceneDelegate.swift in Sources */,
 			);
@@ -331,6 +339,7 @@
 				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -360,6 +369,7 @@
 				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
