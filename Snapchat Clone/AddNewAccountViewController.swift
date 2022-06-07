@@ -13,7 +13,7 @@ class AddNewAccountViewController: UIViewController {
     @IBOutlet weak var newAddEmailText: UITextField!
     @IBOutlet weak var passwordText: UITextField!
     @IBOutlet weak var ConfirmPasswordText: UITextField!
-    
+    @IBOutlet weak var userNane: UITextField!
     override func viewDidLoad() {
         super.viewDidLoad()
 

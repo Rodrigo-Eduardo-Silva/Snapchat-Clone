@@ -31,11 +31,14 @@ class PhotoViewController: UIViewController, UIImagePickerControllerDelegate & U
             if let imageData = selectedImage.jpegData(compressionQuality: 0.5) {
                 imagemStorage.child("imagem.jpg").putData(imageData, metadata: nil) { metadatos , error in
                     if error == nil {
-                       print("Sucesso ao fazer o upload do Arquivo")
+                        print("Sucesso ao fazer o upload do Arquivo")
+                        print(metadatos?.path as Any)
                         self.sendButton.isEnabled = true
                         self.sendButton.setTitle("Próximo", for: .normal)
                     }else{
                       print("Erro ao fazer ao updload do Arquivo")
+                        let alert = Altert(title: "Upload falhou", message: "Erro ao salvar o arwuivo , tente novamente")
+                        self.present(alert.getAltert(), animated: true, completion: nil)
                     }
                 }
             }
