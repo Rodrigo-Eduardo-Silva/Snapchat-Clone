@@ -88,13 +88,9 @@
 			children = (
 				33DF61EF281B703A008A557D /* AppDelegate.swift */,
 				33DF61F1281B703A008A557D /* SceneDelegate.swift */,
-				33DF61F3281B703A008A557D /* ViewController.swift */,
-				338FCC0E2846EBBA0072C0DC /* LoginViewController.swift */,
-				338FCC102846EC560072C0DC /* AddNewAccountViewController.swift */,
 				333CA687284EECCB009D61E5 /* Models */,
 				33DF61F5281B703A008A557D /* Main.storyboard */,
-				332AC18D28498BBA0009CB3A /* PhotoViewController.swift */,
-				332AC18B28498B750009CB3A /* SnapsViewController.swift */,
+				33FEE27D28501FBB0069D31B /* Controllers */,
 				33DF61F8281B703C008A557D /* Assets.xcassets */,
 				33DF6203281B705F008A557D /* logo.png */,
 				33DF61FA281B703C008A557D /* LaunchScreen.storyboard */,
@@ -102,6 +98,18 @@
 				33DF6210281B76BF008A557D /* GoogleService-Info.plist */,
 			);
 			path = "Snapchat Clone";
+			sourceTree = "<group>";
+		};
+		33FEE27D28501FBB0069D31B /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				33DF61F3281B703A008A557D /* ViewController.swift */,
+				338FCC0E2846EBBA0072C0DC /* LoginViewController.swift */,
+				338FCC102846EC560072C0DC /* AddNewAccountViewController.swift */,
+				332AC18B28498B750009CB3A /* SnapsViewController.swift */,
+				332AC18D28498BBA0009CB3A /* PhotoViewController.swift */,
+			);
+			path = Controllers;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */

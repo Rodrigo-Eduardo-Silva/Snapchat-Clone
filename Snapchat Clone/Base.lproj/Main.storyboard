@@ -127,7 +127,7 @@
                                             <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="tC7-bW-zVm">
                                                 <rect key="frame" x="0.0" y="28.5" width="382" height="34"/>
                                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
-                                                <textInputTraits key="textInputTraits" secureTextEntry="YES"/>
+                                                <textInputTraits key="textInputTraits"/>
                                             </textField>
                                         </subviews>
                                     </stackView>
@@ -207,7 +207,7 @@
                         <outlet property="ConfirmPasswordText" destination="H8N-YE-JHy" id="ysP-SG-CdA"/>
                         <outlet property="newAddEmailText" destination="wX8-Ma-wOZ" id="a4k-Y0-9Up"/>
                         <outlet property="passwordText" destination="Jku-fq-LNr" id="1Ag-IB-pyy"/>
-                        <outlet property="userNane" destination="tC7-bW-zVm" id="twG-H7-rSA"/>
+                        <outlet property="userName" destination="tC7-bW-zVm" id="zcJ-He-H8q"/>
                         <segue destination="reh-30-vwp" kind="presentation" identifier="addNewAcountSegue" id="Jvj-C6-qQ3"/>
                     </connections>
                 </viewController>
